@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Daniel\\Desktop\\Pos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|c:\\users\\daniel\\desktop\\pos\\views\\account\\cambiarpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|solutionrelative:views\\account\\cambiarpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|c:\\users\\daniel\\desktop\\pos\\models\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|solutionrelative:models\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|c:\\users\\daniel\\desktop\\pos\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|solutionrelative:helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|c:\\users\\daniel\\desktop\\pos\\helpers\\soundexhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|solutionrelative:helpers\\soundexhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|c:\\users\\daniel\\desktop\\pos\\services\\soundexservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|solutionrelative:services\\soundexservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|c:\\users\\daniel\\desktop\\pos\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|c:\\users\\daniel\\desktop\\pos\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|solutionrelative:services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|c:\\users\\daniel\\desktop\\pos\\services\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1F31A-EF68-208F-927F-20F20B40CE40}|Pos.csproj|solutionrelative:services\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CambiarPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\Pos\\Views\\Account\\CambiarPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\CambiarPassword.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\Desktop\\Pos\\Views\\Account\\CambiarPassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\CambiarPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-06T04:36:40.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\Pos\\Models\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Desktop\\Pos\\Models\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T04:36:11.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\Pos\\Helpers\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Desktop\\Pos\\Helpers\\PasswordHelper.cs",
+              "RelativeToolTip": "Helpers\\PasswordHelper.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T04:35:47.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SoundexHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\Pos\\Helpers\\SoundexHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\SoundexHelper.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Desktop\\Pos\\Helpers\\SoundexHelper.cs",
+              "RelativeToolTip": "Helpers\\SoundexHelper.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T04:35:36.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SoundexService.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\Pos\\Services\\SoundexService.cs",
+              "RelativeDocumentMoniker": "Services\\SoundexService.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Desktop\\Pos\\Services\\SoundexService.cs",
+              "RelativeToolTip": "Services\\SoundexService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T04:35:22.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\Pos\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Desktop\\Pos\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAQwGEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T04:34:54.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\Pos\\Services\\Interfaces\\ILoginService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Desktop\\Pos\\Services\\Interfaces\\ILoginService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T04:34:29.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\Pos\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Desktop\\Pos\\Services\\LoginService.cs",
+              "RelativeToolTip": "Services\\LoginService.cs",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAQwCkBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T04:32:44.868Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

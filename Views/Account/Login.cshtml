@@ -1,0 +1,197 @@
+﻿@model Pos.Models.DTOs.LoginRequestDto
+
+@{
+    ViewData["Title"] = "Iniciar Sesión";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - POS System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .login-container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            max-width: 420px;
+            width: 100%;
+        }
+        .login-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .login-header h1 {
+            color: #333;
+            font-weight: 700;
+            font-size: 28px;
+        }
+        .login-header p {
+            color: #666;
+            font-size: 14px;
+        }
+        .logo {
+            font-size: 48px;
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        .form-control {
+            border-radius: 12px;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s ease;
+        }
+        .form-control:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 12px;
+            padding: 12px;
+            font-weight: 600;
+            font-size: 16px;
+            width: 100%;
+            transition: transform 0.2s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            background: linear-gradient(135deg, #5a6fd6 0%, #6a4298 100%);
+        }
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+        .input-group-text {
+            background: white;
+            border-right: none;
+            border-color: #e0e0e0;
+        }
+        .form-floating {
+            margin-bottom: 15px;
+        }
+        .form-check-label {
+            font-size: 14px;
+            color: #555;
+        }
+        .forgot-password {
+            font-size: 14px;
+            color: #667eea;
+            text-decoration: none;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+        .text-danger {
+            font-size: 13px;
+        }
+        .alert {
+            border-radius: 12px;
+        }
+        .password-toggle {
+            cursor: pointer;
+            color: #888;
+        }
+        .password-toggle:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <div class="logo">
+                <i class="fas fa-store"></i>
+            </div>
+            <h1>POS System</h1>
+            <p>Ingresa tus credenciales para continuar</p>
+        </div>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <i class="fas fa-check-circle me-2"></i> @TempData["SuccessMessage"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <i class="fas fa-exclamation-circle me-2"></i> @TempData["ErrorMessage"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        }
+
+        <form asp-action="Login" method="post" novalidate>
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="form-floating">
+                <input asp-for="Email" class="form-control" placeholder="correo@ejemplo.com" />
+                <label asp-for="Email">
+                    <i class="fas fa-envelope me-2"></i> Correo Electrónico
+                </label>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating position-relative">
+                <input asp-for="Password" class="form-control" type="password" placeholder="Contraseña" id="password" />
+                <label asp-for="Password">
+                    <i class="fas fa-lock me-2"></i> Contraseña
+                </label>
+                <span asp-validation-for="Password" class="text-danger"></span>
+                <div class="position-absolute end-0 top-50 translate-middle-y me-3 password-toggle" onclick="togglePassword()">
+                    <i class="fas fa-eye" id="toggleIcon"></i>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center mt-3 mb-3">
+                <div class="form-check">
+                    <input asp-for="Recordar" class="form-check-input" />
+                    <label asp-for="Recordar" class="form-check-label">Recordarme</label>
+                </div>
+                <a asp-action="RecuperarPassword" class="forgot-password">¿Olvidaste tu contraseña?</a>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-sign-in-alt me-2"></i> Iniciar Sesión
+            </button>
+        </form>
+
+        <div class="text-center mt-3">
+            <small class="text-muted">© @DateTime.Now.Year POS System. Todos los derechos reservados.</small>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function togglePassword() {
+            const passwordInput = document.getElementById('password');
+            const toggleIcon = document.getElementById('toggleIcon');
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                toggleIcon.className = 'fas fa-eye-slash';
+            } else {
+                passwordInput.type = 'password';
+                toggleIcon.className = 'fas fa-eye';
+            }
+        }
+    </script>
+</body>
+</html>
